@@ -8,6 +8,8 @@ I have also incorporated the time and datatime library to gather the current tim
 I’ve made to calculate the stock’s data, should run: 9:30 am till 4 pm, Monday through Friday. Thus, I’ve set the program to update the info every 5 minutes, 
 so roughly 78 prices (6.5 hours, 5 minute intervals) will be added to the data frame every day, more than enough data. 
 
+Obviously, I cannot run a year's worth of data yet because the program would have to run for 1 year continuously, but the csv file shows a small glimpse of the data extracted for 160 minutes of the program running and how it is organized into a data frame
+
 This can be expanded to multiple stocks in an industry, such as Technology where I have info from Samsung, Microsoft, Facebook, etc. 
 With this, I could compare different stocks from the same industry to see what would produce the best profits, in terms of the percentage increases. 
 
