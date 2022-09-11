@@ -1,7 +1,7 @@
 # Stock-Market-Automatic-Webscraper
 I made a program in Jupyter Notebook where the program automatically gets info on Apple’s stock such as the price, rise/decline rate, date, time, etc . 
 This automatically happens every 5 minutes (without me running it) so I can run the program once and it will indefinitely produce data about the stock. 
-After every 5 minutes of scraping info about the stock, the data goes into a CSV file (which can be trillions of data) . I than use the pandas library to turn the live data into a data frame 
+After every 5 minutes of scraping info about the stock, the data goes into a CSV file (which can be trillions of data) . I then use the pandas library to turn the live data into a data frame 
 and eventually produce graphs based on the growth/decline of the stock. 
 
 I have also incorporated the time and datatime library to gather the current time and this will be used to be able to determine when the function, 
